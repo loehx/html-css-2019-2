@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Kontaktformular</title>
+  </head>
+  <body>
+
+    <!-- Überschrift -->
+    <h1>Ihre Meinung ist uns wichtig :)</h1>
+
+    <!-- Beschreibung -->
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae voluptatibus quia laborum nobis est dolores architecto soluta ipsum itaque delectus hic repudiandae harum, cumque minus, exercitationem, necessitatibus qui eligendi non.</p>
+
+
+    <form action="contact.html" method="get">
+
+        <!-- Feld: Geschlecht -->
+        <fieldset>
+
+            <!-- Variante A - ohne Label -->
+            <input type="radio" name="gender" value="m">
+            Männlich
+
+            <!-- Variante B - Label + ID -->
+            <input type="radio" name="gender" value="w" id="gender-w">
+            <label for="gender-w">Weiblich</label>
+
+            <!-- Variante C - Label als Wrapper -->
+            <label>
+                <input type="radio" name="gender" value="d">
+                Divers
+            </label>
+
+        </fieldset>
+
+        <!-- Feld: Vorname -->
+        <fieldset>
+            <label>
+                Vorname
+            </label>
+            <input type="text" name="firstname" placeholder="Max" />
+        </fieldset>
+
+        <!-- Feld: Nachname -->
+        <fieldset>
+            <label>
+                Nachname
+            </label>
+            <input type="text" name="lastname" placeholder="Mustermann" />
+        </fieldset>
+
+        <!-- Feld: E-Mail-Adresse -->
+        <fieldset>
+            <label>
+                E-Mail
+            </label>
+            <input type="email" name="email" placeholder="Max.Mustermann@gmail.com" />
+        </fieldset>
+
+        <!-- Feld: Telefon -->
+        <fieldset>
+            <label>
+                Telefon
+            </label>
+            <input type="text" name="phone" />
+        </fieldset>
+
+        <!-- Feld: Grund der Kontaktaufnahme -->
+        <fieldset>
+            <label>
+                Grund der Kontaktaufnahme
+            </label>
+            <select name="reason">
+                <option>Bitte auswählen</option>
+                <option value="none">Kein Grund</option>
+                <option value="complaint">Beschwerde!</option>
+            </select>
+        </fieldset>
+
+        <!-- Feld: Text (Mehrzeilig) -->
+        <!-- Reset Button -->
+
+        <!-- Submit Button -->
+        <button type="submit">Absenden</button>
+
+    </form>
+
+  </body>
+</html>
