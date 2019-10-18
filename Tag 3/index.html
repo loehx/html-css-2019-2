@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <title>title</title>
+</head>
+
+<body>
+
+    <style>
+
+        .book {
+
+        }
+
+        .book__chapter {
+            border: 5px solid green;
+        }
+
+        .book__chapter--highlighted {
+            border: 5px solid pink;
+        }
+
+
+    </style>
+
+    <div class="container book">
+        <h2>Block</h2>
+        <div class="book__chapter">BOX 1</div>
+        <div class="book__chapter book__chapter--highlighted">BOX 2</div>
+    </div>
+
+    <div class="container book">
+        <h2>Inline</h2>
+        <span class="book__chapter">BOX 1</span>
+        <span class="book__chapter">BOX 2</span>
+    </div>
+
+    <div class="container book">
+        <h2>Inline-Block</h2>
+        <img src="http://placekitten.com/200/200" class="book__chapter" />
+        <img src="http://placekitten.com/200/200" class="book__chapter" />
+    </div>
+
+</body>
+
+</html>
