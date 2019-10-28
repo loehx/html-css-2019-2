@@ -135,40 +135,35 @@
 
 ## Tag 5 (HTML & CSS)
 
-- [ ] ...
-
+- [x] 3 Tage hintereinander 28. - 30. - gesamten Kurs verlängern?
+- [x] Zertifikate nur digital oder auch ausgedruckt? -> Digital
+- [ ] Individuelle Fragen
 - [ ] Wiederholung (30 min. max)
 
-  - [ ] 
-
+  - [ ] Was ist der Unterschied zwischen inline, block und inline-block?
+  - [ ] Welche Selektiermöglichkeiten gibt es in CSS und wie ist die jeweilige Wertigkeit?
+  - [ ] Was ist HTTP?
+  - [ ] Was ist der Unterschied zwischen GET und POST?
+  - [ ] Wie gelangen Cookies zum Server?
+  - [ ] Wer kann Cookies setzten? Frontend? Backend/Server?
+  - [ ] Was ist der Unterschied zwischen HTTP und Websockets?
 - [ ] Hausaufgaben besprechen
-
-- [ ] Flex-Box Training: http://flexboxfroggy.com/#de
-
-- [ ] Theorie
-
-  - [ ] Open Graph
-  - [ ] ARIA
-
+  - [ ] Header-Leiste (ähnlich wie auf GitHub) (Hausaufgabe)
+  - [ ] Menü auf 3 Ebenen erweitern (Hausaufgabe)
+  - [ ] Sticky machen (_Edge_ muss supported werden) (Hausaufgabe)
+  - [ ] Flex-Box Training: http://flexboxfroggy.com/#de
 - [ ] Praxis
 
   - [ ] Mobiles Menü zum ausklappen
 
-- [ ] RETRO
-  | STOP  |                                                             |
-  | ---  | --------------------------------------- |
-  | LESS  |                                 |
-  | KEEP  |                       |
-  | MORE  |                                        |
-  | START |  |
-  
-
 ## Tag 6 (HTML & CSS)
 
-- [ ] Review - Skill-Matrix aktualisieren
-- [ ] ...
+- [ ] [Mid-Term Feedback](https://docs.google.com/forms/d/e/1FAIpQLSfBazBam-hlIShE5-_N_1zBP3lqwE3KV53u_qSepgp67Tq1BA/viewform)
+- [ ] [Skill-Matrix](https://docs.google.com/document/d/1w4SBYqqfY3GTwwv4WFau_0xuTjbuAqcrR9REabGqxZg/edit?usp=sharing) aktualisieren 
 - [ ] Wiederholung (30 min. max)
-  - [ ] 
+  - [ ] Wofür brauchen wir position: relative?
+  - [ ] Warum macht man ein padding 
+- [ ] Individuelle Fragen
 - [ ] Hausaufgaben besprechen
 - [ ] Theorie
   - [ ] Pseudo-Elemente
@@ -182,16 +177,23 @@
 ## Tag 7 (HTML & CSS)
 
 - [ ] ...
+
 - [ ] Wiederholung (30 min. max)
   
   - [ ] 
+  
+- [ ] Individuelle Fragen
+
 - [ ] Hausaufgaben besprechen
+
 - [ ] Theorie
   
   - [ ] 
+  
 - [ ] Praxis
   - [ ] Footer (ähnlich wie auf https://xstarters.digital/)
     - [ ] Für mobile Ansicht optimieren
+  
 - [ ] RETRO
   | STOP  |                                                             |
   | ---  | --------------------------------------- |
@@ -204,6 +206,7 @@
 
 - [ ] ...
 - [ ] Wiederholung
+- [ ] Individuelle Fragen
 - [ ] Hausaufgaben besprechen
 - [ ] Theorie
   - [ ] 
@@ -214,12 +217,14 @@
 
 - [ ] ...
 - [ ] Wiederholung
+- [ ] Individuelle Fragen
 - [ ] Hausaufgaben besprechen
 - [ ] Theorie
   - [ ] 
 - [ ] Praxis
   - [ ] 
 - [ ] Rückblick
+- [ ] Zertifikatausgabe 
 
 ## Tag 10 (HTML & CSS Continuation Course)
 

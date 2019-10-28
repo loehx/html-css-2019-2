@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <title>title</title>
+</head>
+
+<body>
+
+    <style>
+
+        h2 {
+            margin-top: 30px;
+        }
+
+        .wrapper {
+            position: relative;
+            border: 5px solid green;
+            height: 200px;
+        }
+
+        .box {
+            background-color: green;
+            width: 700px;
+            height: 50px;
+        }
+
+        .wrapper--flex {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .wrapper--flex .box {
+            opacity: .5;
+            transition: transform .3s ease, opacity 1000ms ease;
+        }
+
+        .wrapper--flex .box:hover {
+            opacity: 1;
+            transform: scale(1.2);
+        }
+
+        .wrapper--position-absolute .box {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+    </style>
+
+    <div class="container">
+
+        <h1>Vertikale Zentrierung</h1>
+
+        <h2>Flex</h2>
+        <div class="wrapper wrapper--flex">
+            <div class="box"></div>
+        </div>
+
+        <h2>Position: absolute</h2>
+        <div class="wrapper wrapper--position-absolute">
+            <div class="box"></div>
+        </div>
+
+
+
+    </div>
+
+</body>
+
+</html>

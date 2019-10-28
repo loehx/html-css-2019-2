@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <title>title</title>
+</head>
+
+<body>
+
+    <style>
+
+        h2 {
+            margin-top: 30px;
+        }
+
+        .wrapper {
+            position: relative;
+            border: 5px solid green;
+            height: 200px;
+        }
+
+        .box {
+            background-color: green;
+            width: 100px;
+            height: 50px;
+        }
+
+        .wrapper--margin .box {
+            margin: 0 auto;
+        }
+
+        .wrapper--calc .box {
+            margin-left: calc(50% - 50px);
+        }
+
+        .wrapper--flex {
+            display: flex;
+            justify-content: center;
+        }
+
+        .wrapper--text-align {
+            text-align: center;
+        }
+
+        .wrapper--text-align .box {
+            display: inline-block;
+        }
+
+        .wrapper--bootstrap .box {
+            width: auto;
+        }
+
+        .wrapper--position-absolute .box {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+    </style>
+
+    <div class="container">
+
+        <h1>Horizontale Zentrierung</h1>
+
+        <h2>Margin</h2>
+        <div class="wrapper wrapper--margin">
+            <div class="box"></div>
+        </div>
+
+        <h2>Kalkulatorisch</h2>
+        <div class="wrapper wrapper--calc">
+            <div class="box"></div>
+        </div>
+
+        <h2>Flex</h2>
+        <div class="wrapper wrapper--flex">
+            <div class="box"></div>
+        </div>
+
+        <h2>Text-align + inline-block</h2>
+        <div class="wrapper wrapper--text-align">
+            <div class="box"></div>
+        </div>
+
+        <h2>Bootstrap</h2>
+        <div class="wrapper wrapper--bootstrap">
+            <div class="box col-2 offset-5">test</div>
+        </div>
+
+        <h2>Position: absolute</h2>
+        <div class="wrapper wrapper--position-absolute">
+            <div class="box"></div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
