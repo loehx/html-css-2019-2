@@ -7,7 +7,7 @@
 * [x] Aufbau, Methoden, Werte
 
 * [x] Theorie
-  
+
   * [x] HTML Syntax
   * [x] HTML Grundstruktur
   * [x] HTML Elemente nach Häufigkeit
@@ -16,14 +16,14 @@
     * [x] link, meta, ... (https://www.advancedwebranking.com/html/#basic-elements-metadata)
 
 * [x] Praxis: Basic HTML-Seite mit p-Tag anlegen (Mit HTML-Syntax herumspielen)
-  
+
   * [x] HTML Preset / Boilerplate
   * [x] Tags: p, br, pre
   * [x] Attribute: class
   * [x] Chrome DevTools
 
 * [x] Praxis: Kontaktformular
-  
+
   * [x] Tags: form, fieldset, label, input, select, option
   * [x] Attribute: for, type, value, placeholder
 
@@ -32,7 +32,7 @@
 * [x] Review
 
 * [x] Wiederholung
-  
+
   * [x] Welche 3 bzw. 4 Elemente definieren die HTML-Grundstruktur?
   * [x] ... und was enthalten diese?
   * [x] Welche HTML-Elemente kennt ihr?
@@ -46,12 +46,12 @@
   * [x] Was macht der name-Attribut bei einem input?
 
 * [x] Theorie
-  
+
   * [x] Meta-Daten (title, meta, og:)
 
 * [x] Aufgabe: Kontakt
   formular
-  
+
   * [x] Felder implementieren
   * [x] Neues Attribut: required
   * [x] Danke-Seite implementieren
@@ -59,7 +59,7 @@
   * [x] Kurze Intro: container, rows und cols
 
 * [x] Hausaufgabe:
-  
+
   * [x] Formular schön machen mit Bootstrap
 
 ## Tag 3 (HTML & CSS)
@@ -69,7 +69,7 @@
 * [x] 22.10. Verschieben oder in die Schanze!
 
 * [x] Wiederholung
-  
+
   * [x] Was ist Bootstrap?
   * [x] Was ist ein Grid?
   * [x] Was ist ein Breakpoint?
@@ -86,7 +86,7 @@
 * [x] Hausaufgaben durchgehen
 
 * [x] Theorie
-  
+
   * [x] Pixelratio
   - [x] Bootstrap: order, offset
   - [x] Box Model
@@ -159,10 +159,10 @@
 ## Tag 6 (HTML & CSS)
 
 - [ ] [Mid-Term Feedback](https://docs.google.com/forms/d/e/1FAIpQLSfBazBam-hlIShE5-_N_1zBP3lqwE3KV53u_qSepgp67Tq1BA/viewform)
-- [ ] [Skill-Matrix](https://docs.google.com/document/d/1w4SBYqqfY3GTwwv4WFau_0xuTjbuAqcrR9REabGqxZg/edit?usp=sharing) aktualisieren 
+- [ ] [Skill-Matrix](https://docs.google.com/document/d/1w4SBYqqfY3GTwwv4WFau_0xuTjbuAqcrR9REabGqxZg/edit?usp=sharing) aktualisieren
 - [ ] Wiederholung (30 min. max)
   - [ ] Wofür brauchen wir position: relative?
-  - [ ] Warum macht man ein padding 
+  - [ ] Warum macht man ein padding
 - [ ] Individuelle Fragen
 - [ ] Hausaufgaben besprechen
 - [ ] Theorie
@@ -179,21 +179,21 @@
 - [ ] ...
 
 - [ ] Wiederholung (30 min. max)
-  
-  - [ ] 
-  
+
+  - [ ]
+
 - [ ] Individuelle Fragen
 
 - [ ] Hausaufgaben besprechen
 
 - [ ] Theorie
-  
-  - [ ] 
-  
+
+  - [ ]
+
 - [ ] Praxis
   - [ ] Footer (ähnlich wie auf https://xstarters.digital/)
     - [ ] Für mobile Ansicht optimieren
-  
+
 - [ ] RETRO
   | STOP  |                                                             |
   | ---  | --------------------------------------- |
@@ -209,7 +209,7 @@
 - [ ] Individuelle Fragen
 - [ ] Hausaufgaben besprechen
 - [ ] Theorie
-  - [ ] 
+  - [ ]
 - [ ] Praxis
   - [ ] Custom Checkbox
 
@@ -220,11 +220,11 @@
 - [ ] Individuelle Fragen
 - [ ] Hausaufgaben besprechen
 - [ ] Theorie
-  - [ ] 
+  - [ ]
 - [ ] Praxis
-  - [ ] 
+  - [ ]
 - [ ] Rückblick
-- [ ] Zertifikatausgabe 
+- [ ] Zertifikatausgabe
 
 ## Tag 10 (HTML & CSS Continuation Course)
 
@@ -235,5 +235,3 @@
 ### Teilnehmer
 
 Nils, Sibila, Clemens
-
-test
