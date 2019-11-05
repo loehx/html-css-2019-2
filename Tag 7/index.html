@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <title>title</title>
+</head>
+
+<body>
+
+    <style>
+
+        .container {
+            position: relative;
+            border: 5px solid green;
+            height: 200px;
+            overflow: hidden;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .container a {
+            text-decoration: none !important;
+            position: relative;
+        }
+        .container a:hover {
+            color: red;
+        }
+
+        .container a:before {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0%;
+            height: 2px;
+            background-color: red;
+            transition: all .3s ease;
+        }
+
+        .container a:hover:before {
+            width: 100%;
+        }
+
+        .container img {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            width: 100%;
+        }
+
+    </style>
+
+    <div class="container">
+        <a href="#">click here</a>
+    </div>
+    <br>
+    <div class="container">
+        <img src="http://placekitten.com/500/200" alt="">
+    </div>
+    <div class="container" style="background-image: url(http://placekitten.com/500/200)">
+    </div>
+
+</body>
+
+</html>

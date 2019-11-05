@@ -130,43 +130,49 @@
   * [x] CSS Wertigkeiten (In Präsenation erklärt)
 * [x] Praxis
   - [x] Header-Leiste (ähnlich wie auf GitHub) (Hausaufgabe)
-  - [ ] Menü auf 3 Ebenen erweitern (Hausaufgabe)
   - [ ] Sticky machen (_Edge_ muss supported werden) (Hausaufgabe)
 
 ## Tag 5 (HTML & CSS)
 
 - [x] 3 Tage hintereinander 28. - 30. - gesamten Kurs verlängern?
 - [x] Zertifikate nur digital oder auch ausgedruckt? -> Digital
-- [ ] Individuelle Fragen
-- [ ] Wiederholung (30 min. max)
+- [x] Individuelle Fragen
+- [x] Wiederholung (30 min. max)
 
-  - [ ] Was ist der Unterschied zwischen inline, block und inline-block?
-  - [ ] Welche Selektiermöglichkeiten gibt es in CSS und wie ist die jeweilige Wertigkeit?
-  - [ ] Was ist HTTP?
-  - [ ] Was ist der Unterschied zwischen GET und POST?
-  - [ ] Wie gelangen Cookies zum Server?
-  - [ ] Wer kann Cookies setzten? Frontend? Backend/Server?
-  - [ ] Was ist der Unterschied zwischen HTTP und Websockets?
-- [ ] Hausaufgaben besprechen
-  - [ ] Header-Leiste (ähnlich wie auf GitHub) (Hausaufgabe)
-  - [ ] Menü auf 3 Ebenen erweitern (Hausaufgabe)
-  - [ ] Sticky machen (_Edge_ muss supported werden) (Hausaufgabe)
-  - [ ] Flex-Box Training: http://flexboxfroggy.com/#de
-- [ ] Praxis
+  - [x] Was ist der Unterschied zwischen inline, block und inline-block?
+  - [x] Welche Selektiermöglichkeiten gibt es in CSS und wie ist die jeweilige Wertigkeit?
+  - [x] Wie gelangen Cookies zum Server?
+- [x] Hausaufgaben besprechen
+  - [x] Header-Leiste (ähnlich wie auf GitHub) (Hausaufgabe)
+  - [x] Sticky machen (_Edge_ muss supported werden) (Hausaufgabe)
+  - [x] Flex-Box Training: http://flexboxfroggy.com/#de
+- [x] Praxis
 
-  - [ ] Mobiles Menü zum ausklappen
+  - [x] Mobiles Menü zum ausklappen (Hausaufgabe)
 
 ## Tag 6 (HTML & CSS)
 
-- [ ] [Mid-Term Feedback](https://docs.google.com/forms/d/e/1FAIpQLSfBazBam-hlIShE5-_N_1zBP3lqwE3KV53u_qSepgp67Tq1BA/viewform)
-- [ ] [Skill-Matrix](https://docs.google.com/document/d/1w4SBYqqfY3GTwwv4WFau_0xuTjbuAqcrR9REabGqxZg/edit?usp=sharing) aktualisieren
-- [ ] Wiederholung (30 min. max)
-  - [ ] Wofür brauchen wir position: relative?
-  - [ ] Warum macht man ein padding
-- [ ] Individuelle Fragen
-- [ ] Hausaufgaben besprechen
+## Tag 7 (HTML & CSS)
+
+- [x] [Skill-Matrix](https://docs.google.com/document/d/1w4SBYqqfY3GTwwv4WFau_0xuTjbuAqcrR9REabGqxZg/edit?usp=sharing) aktualisieren
+- [x] [Mid-Term Feedback](https://docs.google.com/forms/d/e/1FAIpQLSfBazBam-hlIShE5-_N_1zBP3lqwE3KV53u_qSepgp67Tq1BA/viewform)
+- [x] Speed-Retro ( - .. + )
+- [x] Wiederholung (20 min. max)
+  - [x] Wofür benötigt man position: relative?
+  - [x] Was bewirkt die Klasse col-md-6?
+  - [x] Welche HTML Elemente dienen ausschließlich dem Schachteln und Positionieren von Inhalten?
+  - [x] Welche Elemente sind inline-block? (reium)
+  - [x] Welche Möglichkeiten habe ich CSS einzubinden?
+  - [x] Wie gelangen Cookies zum Server?
+  - [x] Wer kann Cookies setzten? Frontend? Backend/Server?
+  - [x] Was ist der Unterschied zwischen GET und POST?
+- [x] Individuelle Fragen
+- [x] Hausaufgaben besprechen
+  - [x] Mobiles Menü zum ausklappen
 - [ ] Theorie
-  - [ ] Pseudo-Elemente
+  - [ ] Pseudo-Elemente :before und :after
+  - [ ] CSS: + ~ >
+  - [ ] z-index
 - [ ] Praxis
   - [ ] Popup (über den Seiteninhaltend liegend)
     - [ ] Button zum schließen (rechts oben in der Ecke)
@@ -212,6 +218,7 @@
   - [ ]
 - [ ] Praxis
   - [ ] Custom Checkbox
+  - [ ] Navigation nachbauen: https://ghost.org/3/
 
 ## Tag 9 (HTML & CSS)
 
