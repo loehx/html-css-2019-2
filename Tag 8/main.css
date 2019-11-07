@@ -13,9 +13,59 @@
     right: 0;
     bottom: 0;
     background-color: rgba(0,0,0,.3);
-    display: none;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
 }
 
 .popup:target {
-    display: block;
+    display: flex;
+    visibility: visible;
+    opacity: 1;
+    transition: all .5s ease;
+}
+
+.popup:target .popup__inner {
+    transform: scale(1);
+}
+
+.popup__inner {
+    position: relative;
+    background-color: white;
+    box-shadow: 0 30px 50px -15px rgba(0,0,0,.5);
+    min-height: 300px;
+    max-height: 90vh;
+    width: 600px;
+    padding: 30px;
+    border-radius: 5px;
+    overflow: auto;
+    transition: transform .3s ease;
+    transform: scale(.6);
+}
+
+.popup__close {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 15px;
+    line-height: 1;
+    padding: 10px;
+    color: black !important;
+    text-decoration: none !important;
+    transition: all .3s ease;
+}
+
+.popup__close-overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    cursor: default;
+}
+
+.popup__close:hover {
+    transform: rotate(90deg);
 }
