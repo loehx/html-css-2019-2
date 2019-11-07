@@ -1,0 +1,21 @@
+.popup-opener {
+    padding: 20px;
+    background-color: green;
+    color: white !important;
+    display: inline-block;
+    text-decoration: none !important;
+}
+
+.popup {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,.3);
+    display: none;
+}
+
+.popup:target {
+    display: block;
+}
