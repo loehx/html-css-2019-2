@@ -1,5 +1,9 @@
 # HTML & CSS Kurs 2019 (2)
 
+## Skill-Matrix
+
+https://docs.google.com/document/d/1w4SBYqqfY3GTwwv4WFau_0xuTjbuAqcrR9REabGqxZg/edit?usp=sharing
+
 ## Tag 1 (HTML)
 
 * [x] Vorstellung
@@ -152,6 +156,21 @@
 
 ## Tag 6 (HTML & CSS)
 
+- [x] Wiederholung (20 min. max)
+  - [x] Wofür benötigt man position: relative?
+  - [x] Was bewirkt die Klasse col-md-6?
+  - [x] Welche HTML Elemente dienen ausschließlich dem Schachteln und Positionieren von Inhalten?
+  - [x] Welche Elemente sind inline-block? (reium)
+  - [x] Welche Möglichkeiten habe ich CSS einzubinden?
+  - [x] Wie gelangen Cookies zum Server?
+  - [x] Wer kann Cookies setzten? Frontend? Backend/Server?
+  - [x] Was ist der Unterschied zwischen GET und POST?
+- [x] Individuelle Fragen
+- [x] Theorie
+  - [x] position: absolute
+- [x] Links
+  - [x] http://flexboxfroggy.com/#de
+
 ## Tag 7 (HTML & CSS)
 
 - [x] [Skill-Matrix](https://docs.google.com/document/d/1w4SBYqqfY3GTwwv4WFau_0xuTjbuAqcrR9REabGqxZg/edit?usp=sharing) aktualisieren
@@ -169,75 +188,98 @@
 - [x] Individuelle Fragen
 - [x] Hausaufgaben besprechen
   - [x] Mobiles Menü zum ausklappen
-- [ ] Theorie
-  - [ ] Pseudo-Elemente :before und :after
-  - [ ] CSS: + ~ >
-  - [ ] z-index
-- [ ] Praxis
-  - [ ] Popup (über den Seiteninhaltend liegend)
-    - [ ] Button zum schließen (rechts oben in der Ecke)
-    - [ ] Schließen bei Klick auf den Hintergrund
-    - [ ] Inhalt scrollbar machen
-    - [ ] Animation (extra)
+- [x] Theorie
+  - [x] Pseudo-Elemente :before und :after
 
 ## Tag 7 (HTML & CSS)
 
-- [ ] ...
-
-- [ ] Wiederholung (30 min. max)
-
-  - [ ]
-
-- [ ] Individuelle Fragen
-
-- [ ] Hausaufgaben besprechen
-
-- [ ] Theorie
-
-  - [ ]
-
-- [ ] Praxis
-  - [ ] Footer (ähnlich wie auf https://xstarters.digital/)
-    - [ ] Für mobile Ansicht optimieren
-
-- [ ] RETRO
-  | STOP  |                                                             |
-  | ---  | --------------------------------------- |
-  | LESS  |                                 |
-  | KEEP  |                       |
-  | MORE  |                                        |
-  | START |  |
+- [x] Wiederholung (30 min. max)
+  - [x] Welche Ursachen könnte es haben, dass ein neues HTML-Element nicht im Browser dargestellt wird?
+  - [x] Welche Ursachen könnte es haben, dass ein Styling nicht greift?
+  - [x] Was habe ich vergessen, wenn ein Pseudo-Element nicht in den Dev-Tools angezeigt wird?
+  - [x] Was bedeuten 2 Unterstriche im Klassennamen?
+  - [x] Wie finde ich schnell heraus, ob ich einen Syntax Fehler im Code habe?
+  - [x] Welche Möglichkeiten habe ich ein Element horizontal und vertikal zu zentrieren?
+  - [x] Was mache ich wenn mein Code zu unübersichtlich geworden ist?
+- [x] Individuelle Fragen
+- [x] Hausaufgaben besprechen
+- [x] Praxis
+  - [x] Popup (über den Seiteninhaltend liegend)
+    - [x] Button zum schließen (rechts oben in der Ecke)
+- [x] Theorie
+  - [x] z-index
 
 ## Tag 8 (HTML & CSS)
 
-- [ ] ...
+- [x] Individuelle Fragen
+- [x] Hausaufgaben besprechen
+  - [x] Popup (über den Seiteninhaltend liegend)
+    - [x] Schließen bei Klick auf den Hintergrund (Hausaufgabe)
+    - [x] Inhalt scrollbar machen (Hausaufgabe)
+    - [x] Animation (extra) (Hausaufgabe)
+
+## Tag 9 (HTML & CSS)
+
+- [x] Wiederholung
+  - [x] Was habe ich vergessen, wenn ein Pseudo-Element nicht in den Dev-Tools angezeigt wird?
+  - [x] Was bedeuten 2 Unterstriche im Klassennamen?
+  - [x] Wie finde ich schnell heraus, ob ich einen Syntax Fehler im Code habe?
+  - [x] Welche Möglichkeiten habe ich ein Element horizontal und vertikal zu zentrieren?
+  - [x] Was mache ich wenn mein Code zu unübersichtlich geworden ist?
+  - [x] Was ist der Unterschied zwischen einem Link und einem Anchor?
+  - [x] Was habe ich vergessen, wenn ein Pseudo-Element nicht in den Dev-Tools angezeigt wird?
+- [x] Individuelle Fragen
+- [x] Hausaufgaben besprechen
+- [x] Theorie
+  - [x] Pseudo-Selektoren :after und :before
+- [x] Zertifikatausgabe Sibila
+
+## Tag 10 (HTML & CSS Continuation Course)
+
+- [x] Wiederholung
+  - [x] Wofür benötigt man position: relative?
+  - [x] Was ist ein pseudo-Selektor?
+  - [x] Was ist der Unterschied zwischen einem Link und einem Anchor?
+  - [x] Was habe ich vergessen, wenn ein Pseudo-Element nicht in den Dev-Tools angezeigt wird?
+- [x] Individuelle Fragen
+- [x] Hausaufgaben besprechen
+- [x] Praxis
+  - [x] Footer (wie auf https://xstarters.digital/)
+- [x] Links
+  - [x] https://getbootstrap.com/docs/4.0/utilities/flex/
+  - [x] http://extractcss.com/
+  - [x] https://demos.scotch.io/visual-guide-to-css3-flexbox-flexbox-playground/demos/
+  - [x] http://code.jquery.com/
+
+## Tag 11 (HTML & CSS Continuation Course)
+
 - [ ] Wiederholung
+  - [ ] ...
 - [ ] Individuelle Fragen
+- [ ] SCSS (Nils)
 - [ ] Hausaufgaben besprechen
+  - [ ] Footer (wie auf https://xstarters.digital/)
 - [ ] Theorie
-  - [ ]
+  - [ ] Neues Projekt mit GitHub verbinden
 - [ ] Praxis
   - [ ] Custom Checkbox
   - [ ] Navigation nachbauen: https://ghost.org/3/
 
-## Tag 9 (HTML & CSS)
+## Tag 12 (HTML & CSS Continuation Course)
 
-- [ ] ...
+- [ ] Zertifikate Clemens und Nils
 - [ ] Wiederholung
+  - [ ] Wofür benötigt man position: relative?
+  - [ ] Was ist ein pseudo-Selektor?
+  - [ ] Was ist der Unterschied zwischen einem Link und einem Anchor?
+  - [ ] Was habe ich vergessen, wenn ein Pseudo-Element nicht in den Dev-Tools angezeigt wird?
+  - [ ] Was ist der Unterschied zwischen inline, block und inline-block?
 - [ ] Individuelle Fragen
 - [ ] Hausaufgaben besprechen
 - [ ] Theorie
-  - [ ]
 - [ ] Praxis
-  - [ ]
-- [ ] Rückblick
-- [ ] Zertifikatausgabe
-
-## Tag 10 (HTML & CSS Continuation Course)
-
-## Tag 11 (HTML & CSS Continuation Course)
-
-## Tag 12 (HTML & CSS Continuation Course)
+  - [ ] Custom Checkbox
+  - [ ] Navigation nachbauen: https://ghost.org/3/
 
 ### Teilnehmer
 
