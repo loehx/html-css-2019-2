@@ -1,0 +1,13 @@
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.icon-arrow-up:before {
+    content: '\02191';
+    font-size: 30px;
+    line-height: 0;
+}
