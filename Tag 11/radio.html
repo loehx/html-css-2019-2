@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <title>title</title>
+</head>
+
+<body>
+
+    <style>
+
+        .radio {
+            display: inline-block;
+            width: 18px;
+            height: 18px;
+            border: 1px solid #CCC;
+            background-color: white;
+            position: relative;
+            vertical-align: text-bottom;
+            margin: 0 5px 0 0;
+            border-radius: 50%;
+        }
+
+        .radio input {
+            visibility: hidden;
+        }
+
+        .radio__check {
+            position: absolute;
+            left: 2px;
+            right: 2px;
+            top: 2px;
+            bottom: 2px;
+            transform: scale(.2);
+            border-radius: 50%;
+            background-color: #999;
+            opacity: 0;
+            transition: all .2s ease;
+        }
+
+        .radio input:checked + .radio__check {
+            opacity: 1;
+            transform: scale(1);
+        }
+
+    </style>
+
+    <div class="container mt-5">
+
+        <h1>Radio</h1>
+
+        <label>
+            <span class="radio">
+                <input type="radio" name="bot" value="ja!">
+                <span class="radio__check"></span>
+            </span>
+            Lorem ipsum dolor sit amet labore. Delectus, ipsam. Possimus molestiae.
+        </label>
+        <br>
+        <label>
+            <span class="radio">
+                <input type="radio" name="bot" value="ja!">
+                <span class="radio__check"></span>
+            </span>
+            Consectetur adipisicing elit. Vero aliquam neque aut
+        </label>
+        <br>
+        <label>
+            <span class="radio">
+                <input type="radio" name="bot" value="ja!">
+                <span class="radio__check"></span>
+            </span>
+            Possimus molestiae, autem voluptas
+        </label>
+
+    </div>
+
+    <div class="container mt-5">
+
+        <label class="radio">
+            <input type="radio" name="bot" value="ja!">
+            <span class="radio__check"></span>
+        </label>
+        Ja, ich bin ein Bot!
+
+    </div>
+
+</body>
+
+</html>

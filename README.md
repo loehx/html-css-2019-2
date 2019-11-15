@@ -98,6 +98,10 @@ https://docs.google.com/document/d/1w4SBYqqfY3GTwwv4WFau_0xuTjbuAqcrR9REabGqxZg/
   - [x] BEM
   * [x] CSS: inline vs block
 
+* [x] Links
+
+  * [x] https://flukeout.github.io/ (CSS Diner - auch super zum nachschauen von CSS-Themen)
+
 * [x] RETRO
 
   | STOP  | -                                                            |
@@ -253,16 +257,25 @@ https://docs.google.com/document/d/1w4SBYqqfY3GTwwv4WFau_0xuTjbuAqcrR9REabGqxZg/
 
 ## Tag 11 (HTML & CSS Continuation Course)
 
-- [ ] Wiederholung
-  - [ ] ...
-- [ ] Individuelle Fragen
-- [ ] SCSS (Nils)
-- [ ] Hausaufgaben besprechen
-  - [ ] Footer (wie auf https://xstarters.digital/)
-- [ ] Theorie
+- [x] Was möchtet ihr heute an Theorie lernen?
+- [x] Wiederholung
+  - [x] Welche 3 Klassen benötige ich mind. für ein Bootstrap Grid?
+  - [x] Was passiert wenn ich 3x col-6 Elemente in einer row habe?
+  - [x] Wenn ich Höhe, margin oder padding definiere, aber nichts passiert, was tue ich?
+  - [x] Welche Möglichkeiten habe ich ein Element horizontal zu zentrieren?
+  - [x] ... vertikal?
+  - [x] Was muss ich tun, damit ein Button heran-zoomt bei *hover* und wieder kleiner wird bei *Klick*?
+  - [x] Wie binde ich ein Bild ein, dass 16:9 **gecroppt** dargestellt werden soll?
+  - [x] Wenn ich ein Logo als PNG einbinde und es unscharf ist auf meinem MAC, was kann ich tun?
+- [x] Individuelle Fragen
+- [x] SCSS (Nils)
+- [x] Hausaufgaben besprechen
+  - [x] Footer (wie auf https://xstarters.digital/)
+- [x] Theorie
+  - [x] Element-ratio mit padding
   - [ ] Neues Projekt mit GitHub verbinden
 - [ ] Praxis
-  - [ ] Custom Checkbox
+  - [ ] Custom Checkbox & Radiobox
   - [ ] Navigation nachbauen: https://ghost.org/3/
 
 ## Tag 12 (HTML & CSS Continuation Course)

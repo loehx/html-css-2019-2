@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <title>title</title>
+</head>
+
+<body>
+
+    <style>
+
+        .frame {
+            border: 5px solid green;
+            width: 100%;
+            margin-top: 30px;
+            background-image: url('http://placekitten.com/1600/900');
+            background-position: center;
+            background-size: cover;
+        }
+
+        .frame--nils {
+            background-image: none;
+            display: flex;
+            justify-content: center;
+        }
+
+        .frame--nils img {
+            max-height: 200px;
+            max-width: 100%;
+        }
+
+        .frame--nils figcaption {
+            color: transparent;
+            position: absolute
+        }
+
+        .frame--16by9 {
+            padding-bottom: calc(9/16*100%);
+        }
+
+        .frame--4by3 {
+            padding-bottom: calc(3/4*100%);
+        }
+
+        .frame--1by1 {
+            padding-bottom: 100%;
+        }
+
+    </style>
+
+    <div class="container">
+        <figure class="frame frame--nils">
+            <img src="http://placekitten.com/1600/900" alt="Kätzchen" />
+            <figcaption>dsfdsfksdjfnksf skjfd djksf dskf dsk</figcaption>
+        </figure>
+        <div class="frame frame--16by9"></div>
+        <div class="frame frame--4by3"></div>
+        <div class="frame frame--1by1"></div>
+    </div>
+
+</body>
+
+</html>

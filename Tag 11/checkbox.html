@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <title>title</title>
+</head>
+
+<body>
+
+    <style>
+
+        .checkbox {
+            display: inline-block;
+            width: 18px;
+            height: 18px;
+            border: 1px solid #CCC;
+            background-color: white;
+            position: relative;
+            vertical-align: text-bottom;
+            margin: 0 5px 0 0;
+        }
+
+        .checkbox input {
+            visibility: hidden;
+        }
+
+        .checkbox__check {
+            position: absolute;
+            top: -7px;
+            left: 8px;
+            width: 8px;
+            height: 20px;
+            transform: rotate(45deg) scale(2);
+            border: 3px solid green;
+            border-left: none;
+            border-top: none;
+            opacity: 0;
+            transition: all .2s ease;
+        }
+
+        .checkbox input:checked + .checkbox__check {
+            opacity: 1;
+            transform: rotate(45deg) scale(1);
+        }
+
+    </style>
+
+    <div class="container mt-5">
+
+        <h1>Checkbox</h1>
+
+        <label>
+            <span class="checkbox">
+                <input type="checkbox" name="bot" value="ja!">
+                <span class="checkbox__check"></span>
+            </span>
+            Lorem ipsum dolor sit amet labore. Delectus, ipsam. Possimus molestiae.
+        </label>
+        <br>
+        <label>
+            <span class="checkbox">
+                <input type="checkbox" name="bot" value="ja!">
+                <span class="checkbox__check"></span>
+            </span>
+            Consectetur adipisicing elit. Vero aliquam neque aut
+        </label>
+        <br>
+        <label>
+            <span class="checkbox">
+                <input type="checkbox" name="bot" value="ja!">
+                <span class="checkbox__check"></span>
+            </span>
+            Possimus molestiae, autem voluptas
+        </label>
+
+    </div>
+
+    <div class="container mt-5">
+
+        <label class="checkbox">
+            <input type="checkbox" name="bot" value="ja!">
+            <span class="checkbox__check"></span>
+        </label>
+        Ja, ich bin ein Bot!
+
+    </div>
+
+</body>
+
+</html>

@@ -40,8 +40,8 @@
     padding: 30px;
     border-radius: 5px;
     overflow: auto;
-    transition: transform .3s ease;
-    transform: scale(.6);
+    transition: transform 5.3s ease;
+    transform: scale(.1);
 }
 
 .popup__close {
