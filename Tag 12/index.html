@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <title>title</title>
+</head>
+
+<body>
+
+    <style>
+
+        .box {
+            height: 200px;
+            border: 5px solid green;
+        }
+
+        .box--linear {
+            background-image: linear-gradient(to right, white 0%, green 50%, blue 100%);
+            background-size: 200%;
+            transition: all .5s ease; /* funzt net mit gradients */
+        }
+
+        .box--linear:hover {
+            background-size: 100%;
+        }
+
+        .box--linear-advanced {
+            background-image: linear-gradient(to right, white 0%, #00800080 100%);
+        }
+
+        .box--radial {
+            background-image: radial-gradient(white, green 50%);
+        }
+
+        .box--rainbow {
+            background-image: radial-gradient(white, orange, yellow, green, cyan, blue, violet, orange, yellow, green);
+            background-size: 0% 0%;
+            background-repeat: no-repeat;
+            background-position: center;
+            transition: all 10s linear;
+        }
+
+        .box--rainbow:hover {
+            background-size: 1000% 1000%;
+        }
+
+    </style>
+
+    <div class="container">
+        <div class="box box--rainbow"></div>
+        <div class="box box--linear"></div>
+        <div class="box box--linear-advanced"></div>
+        <div class="box box--radial"></div>
+    </div>
+
+</body>
+
+</html>

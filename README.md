@@ -273,26 +273,37 @@ https://docs.google.com/document/d/1w4SBYqqfY3GTwwv4WFau_0xuTjbuAqcrR9REabGqxZg/
   - [x] Footer (wie auf https://xstarters.digital/)
 - [x] Theorie
   - [x] Element-ratio mit padding
-  - [ ] Neues Projekt mit GitHub verbinden
-- [ ] Praxis
-  - [ ] Custom Checkbox & Radiobox
-  - [ ] Navigation nachbauen: https://ghost.org/3/
+  - [x] Neues Projekt mit GitHub verbinden
+- [x] Praxis
+  - [x] Custom Checkbox & Radiobox
 
 ## Tag 12 (HTML & CSS Continuation Course)
 
-- [ ] Zertifikate Clemens und Nils
-- [ ] Wiederholung
-  - [ ] Wofür benötigt man position: relative?
-  - [ ] Was ist ein pseudo-Selektor?
-  - [ ] Was ist der Unterschied zwischen einem Link und einem Anchor?
-  - [ ] Was habe ich vergessen, wenn ein Pseudo-Element nicht in den Dev-Tools angezeigt wird?
-  - [ ] Was ist der Unterschied zwischen inline, block und inline-block?
-- [ ] Individuelle Fragen
-- [ ] Hausaufgaben besprechen
-- [ ] Theorie
-- [ ] Praxis
-  - [ ] Custom Checkbox
-  - [ ] Navigation nachbauen: https://ghost.org/3/
+- [x] [Skill-Matrix](https://docs.google.com/document/d/1w4SBYqqfY3GTwwv4WFau_0xuTjbuAqcrR9REabGqxZg/edit?usp=sharing) aktualisieren
+- [x] Theorie-Themen für heute?
+- [x] Wiederholung
+  - [x] Wofür benötigt man position: relative?
+  - [x] Was ist der Unterschied zwischen inline, block und inline-block?
+  - [x] Was ist ein pseudo-Selektor?
+  - [x] Wann benutze ich `id="..."` anstatt `class="..."`? 
+  - [x] Wie binde ich ein Bild ein, dass 16:9 **gecroppt** dargestellt werden soll?
+  - [x] Wenn ich Höhe, margin oder padding definiere, aber nichts passiert, was tue ich?
+  - [x] Wann teile ich mein CSS auf in mehrere Dateien? ... und wie?
+  - [x] Warum ist die Klassenbezeichnung "nav__item--red" ungünstig?
+  - [x] Mein Pseudo-Element :after wird nicht angezeigt. Was habe ich vergessen?
+  - [x] Wie zentriere ich ein Element vertikal und horizontal mittels `position: absolute`
+- [x] Individuelle Fragen?
+- [x] Hausaufgaben besprechen
+  - [x] Navigation nachbauen: https://ghost.org/3/
+- [x] Theorie
+  - [x] Gradient
+- [x] Praxis
+  - [x] Bewertung mit Sternchen (rein CSS)
+- [x] Zertifikate Clemens und Nils 20:50
+- [x] Abschluss-Feedback (Zettel)
+- [x] Links
+  - [x] https://gradientgenerator.com/
+  - [x] https://www.colorzilla.com/gradient-editor/
 
 ### Teilnehmer
 

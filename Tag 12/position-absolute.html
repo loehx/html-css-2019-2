@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <title>title</title>
+</head>
+
+<body>
+
+    <style>
+
+        h2 {
+            margin-top: 30px;
+        }
+
+        .wrapper {
+            position: relative;
+            border: 5px solid green;
+            height: 200px;
+        }
+
+        .box {
+            background-color: green;
+            width: 100px;
+            height: 50px;
+            margin: 5px;
+        }
+
+        .box--free {
+            position: absolute;
+            border: 5px solid black;
+            left: 10px;
+        }
+
+    </style>
+
+    <div class="container">
+
+        <h1>Horizontale Zentrierung</h1>
+
+        <h2>Position Absolute</h2>
+        <div class="wrapper">
+            <div class="box"></div>
+            <div class="box box--free"></div>
+            <div class="box"></div>
+        </div>
+
+        <h2>Vergleich</h2>
+        <div class="wrapper">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>

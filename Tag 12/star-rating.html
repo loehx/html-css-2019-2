@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <title>title</title>
+</head>
+
+<body>
+
+    <style>
+
+        .box {
+            height: 200px;
+            border: 5px solid green;
+        }
+
+        h3 {
+            font-size: 1rem;
+            font-weight: bold;
+        }
+
+        .rating__inner {
+            display: flex;
+            flex-direction: row-reverse;
+            margin: 10px 0;
+            justify-content: flex-end;
+        }
+
+        .rating__star {
+            position: relative;
+            background-color: white;
+            border: none;
+            display: block;
+            width: 20px;
+            height: 20px;
+            cursor: pointer;
+        }
+
+        .rating__star:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: white;
+        }
+
+        .rating__star:after {
+            content: '\2606';
+            position: relative;
+        }
+
+        .rating__star:checked:after,
+        .rating__star:checked ~ .rating__star:after {
+            content: '\2605';
+            color: gold;
+        }
+
+        .rating__star:hover:after,
+        .rating__star:hover ~ .rating__star:after {
+            content: '\2605';
+            color: gold;
+        }
+
+    </style>
+
+    <div class="container">
+
+        <form class="rating" action="/" method="GET">
+            <h3>Wie hatten Ihnen das Produkt gefallen?</h3>
+            <div class="rating__inner">
+                <input type="radio" class="rating__star" name="rating" value="5" />
+                <input type="radio" class="rating__star" name="rating" value="4" />
+                <input type="radio" class="rating__star" name="rating" value="3" />
+                <input type="radio" class="rating__star" name="rating" value="2" />
+                <input type="radio" class="rating__star" name="rating" value="1" />
+            </div>
+            <button type="submit">Absenden</button>
+        </form>
+
+    </div>
+
+</body>
+
+</html>
